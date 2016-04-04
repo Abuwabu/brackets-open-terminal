@@ -36,7 +36,7 @@ define(function( require, exports, module ) {
         var context_menus = Menus.getContextMenu( Menus.ContextMenuIds.PROJECT_MENU ),
             CMD_OPEN_TERMINAL = 'com.openterminal';
 
-        CommandManager.register( 'Open Terminal here…', CMD_OPEN_TERMINAL, open_terminal_here );
+        CommandManager.register( 'Open iTerm2 here…', CMD_OPEN_TERMINAL, open_terminal_here );
         context_menus.addMenuItem( CMD_OPEN_TERMINAL );
 
         $(context_menus).on("beforeContextMenuOpen", function () {

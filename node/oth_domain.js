@@ -36,7 +36,7 @@
 
     function open( dirname ) {
 
-        shell_exec( 'open', ['-a', 'Terminal', dirname] );
+        shell_exec( 'open', ['-a', 'iTerm', dirname] );
 
     }
 
